@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   --bg-image: url(../images/cover-image-light.png);
-  --bg-color: #FFF1F7; 
+  --bg-color: #FFF1F7;
   --text-color: #000028;
   --title-color: #FFC2E6;
   --accent-color: #FF8DCB;
@@ -22,7 +22,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     --bg-image: url(../images/cover-image-light.png);
-    --bg-color: #FFF1F7; 
+    --bg-color: #FFF1F7;
     --text-color: #000028;
     --title-color: #FFC2E6;
     --accent-color: #FF8DCB;
