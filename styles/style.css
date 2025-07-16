@@ -159,7 +159,6 @@ body, html {
   color: var(--main-title-color);
   font-weight: 700;
   font-size: inherit;
-  line-height: inherit;
   line-height: var(--line-height);
 }
 
@@ -184,7 +183,6 @@ body, html {
   line-height: var(--line-height);
   font-weight: 700;
   font-size: inherit;
-  line-height: inherit;
 }
 
 .title-decor {
