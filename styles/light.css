@@ -5,15 +5,15 @@
   background-attachment: fixed;
   --bg-image: url(../images/cover-image-light.png);
   --bg-color: #FFF1F7;
-  --text-color: #000028;
+  --text-color: #353430;
   --title-color: #FFC2E6;
   --accent-color: #FF8DCB;
-  --decoration-color: #000028;
-  --button-color: #000028;
-  --line-color:#000028;
-  --main-title-color:#000028;
+  --decoration-color: #353430;
+  --button-color: #353430;
+  --line-color:#353430;
+  --main-title-color:#353430;
   --accent-color-rec: #FFF1F7;
-  --accent-color-decor:#000028;
+  --accent-color-decor:#353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -23,14 +23,14 @@
     background-attachment: fixed;
     --bg-image: url(../images/cover-image-light.png);
     --bg-color: #FFF1F7;
-    --text-color: #000028;
+    --text-color: #353430;
     --title-color: #FFC2E6;
     --accent-color: #FF8DCB;
-    --decoration-color: #000028;
-    --button-color: #000028;
-    --line-color:#000028;
-    --main-title-color:#000028;
+    --decoration-color: #353430;
+    --button-color: #353430;
+    --line-color:#353430;
+    --main-title-color:#353430;
     --accent-color-rec: #FFF1F7;
-    --accent-color-decor:#000028;
+    --accent-color-decor:#353430;
   }
 }

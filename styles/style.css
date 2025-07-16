@@ -56,7 +56,7 @@ body, html {
 .header__theme-menu {
   display: flex;
   justify-self: end;
-  padding: 73px 10px 0
+  padding: 74px 10px 0
 }
 
 .header__theme-menu-list {
@@ -160,11 +160,12 @@ body, html {
   font-weight: 700;
   font-size: inherit;
   line-height: inherit;
+  line-height: var(--line-height);
 }
 
 .main__section-block-why {
   display: grid;
-  gap: 18px;
+  gap: 20px;
 }
 
 .text_link {
@@ -175,10 +176,12 @@ body, html {
 .article {
   display: grid;
   gap: 10px;
+  line-height: var(--line-height);
 }
 
 .title {
   color: var(--main-title-color);
+  line-height: var(--line-height);
   font-weight: 700;
   font-size: inherit;
   line-height: inherit;
@@ -188,18 +191,18 @@ body, html {
   background-color: var(--accent-color);
   color: var(--decoration-color);
   font-weight: var(--bold-font-weight);
-  line-height: 23px;
+  line-height: var(--line-height);
   font-size: var(--font-size);
 }
 
 .main__section-block-what {
   display: grid;
-  gap: 18px;
+  gap: 20px;
 }
 
 .main__section-block-how {
   display: grid;
-  gap: 19px;
+  gap: 20px;
 }
 
 .regular {
@@ -301,7 +304,6 @@ body, html {
 
   .main__section-block-what {
     grid-column: 1 / 3;
-    gap: 19px;
   }
 
   .main__section-block-how {
@@ -316,7 +318,6 @@ body, html {
 
   .section__title-about {
     display: grid;
-    gap: 21px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto;
     grid-template-areas:
@@ -324,11 +325,6 @@ body, html {
       "sunset sunset ice-cream"
       "tape books ice-cream"
       "tape street street";
-  }
-
-  .title-about {
-    grid-column-start: 1;
-    grid-column-end: 4;
   }
 
   .image {
@@ -372,7 +368,7 @@ body, html {
   .header__theme-menu {
     justify-self: center;
     align-self: start;
-    padding: 20px;
+    padding: 19px;
   }
 
   .header__theme-menu-list {
@@ -381,28 +377,28 @@ body, html {
   }
 
   .page__title {
-    margin: 257px 0 0;
+    margin: 252px 0 0;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .header__title {
-    margin-right: 20px;
+    margin-right: 21px;
   }
 
   .header__text {
-    gap: 115px;
+    gap: 117px;
   }
 
   .decorated-zone::after {
-    bottom: 16px;
+    bottom: 20px;
     left: 20px;
     width: 25px;
     height: 25px;
   }
 
   .main {
-    padding: 65px 18px;
-    gap: 79px;
+    padding: 60px 19px;
+    gap: 80px;
     margin-bottom: 0;
   }
 
@@ -436,7 +432,7 @@ body, html {
   }
 
   .section__title-about {
-    gap: 17px;
+    gap: 19px;
   }
   
   .footer {
