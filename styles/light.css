@@ -1,8 +1,5 @@
 
 :root.theme-light {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   --bg-image: url(../images/cover-image-light.png);
   --bg-color: #FFF1F7;
   --text-color: #353430;
@@ -18,9 +15,6 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     --bg-image: url(../images/cover-image-light.png);
     --bg-color: #FFF1F7;
     --text-color: #353430;
