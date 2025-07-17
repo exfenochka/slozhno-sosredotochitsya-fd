@@ -135,7 +135,7 @@
 }
 
 .decorated-zone::after {
-  border-bottom: 1px solid var(--accent-color-decor); 
+  border-bottom: 1px solid var(--accent-color-decor);
   border-left: 1px solid var(--accent-color-decor);
   bottom: 10px;
   left: 10px;
